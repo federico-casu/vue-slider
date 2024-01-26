@@ -34,7 +34,7 @@
                     class="thumb" 
                     :class="currentImage === index ? 'active' : ''"
                     @click="currentImage = index">
-                        <img :src="slide.image" alt="Svezia" />
+                        <img :src="slide.image" :alt="slide.title" />
                     </div>
                     <!-- <div class="thumb">
                         <img src="img/02.webp" alt="Ratchet & Clank" />

@@ -65,7 +65,7 @@ createApp({
             }
         },
         startCyclingImgs() {
-            this.autoCycleImg = setInterval(this.nextImage, 1000);
+            this.autoCycleImg = setInterval(this.nextImage, 2000);
         },
         stopCyclingImgs() {
             clearInterval(this.autoCycleImg);
